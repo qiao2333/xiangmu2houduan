@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<h1>灯饰</h1>	
+	<p>插入</p>
+	<form method="POST" action="/controller/light/SQL/insert" >
+		<p>灯饰名称</p><input type="text" name="lightname" />
+		<button type="submit">提交</button>
+	</form>
+	<p>删除</p>
+	<form method="POST" action="/controller/light/SQL/delete" >
+		<p>灯饰id</p><input type="text" name="id" />
+		<button type="submit">提交</button>
+	</form>
+	<p>修改</p>
+	<form method="POST" action="/controller/light/SQL/update">
+		<p>修改的灯饰ID</p><input type="text" name="id" />
+		<p>修改的灯饰名称</p><input type="text" name="id" />
+		<p>修改的灯饰介绍</p><input type="text" name="id" />
+		<button type="submit">提交</button>
+	</form>
+
+</body>
+</html>
